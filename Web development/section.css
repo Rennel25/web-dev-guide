@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(248, 1, 1);
+}
+
+
+
+.fheader{
+    background-color: khaki;
+}
+
+
+
+#brief{
+    background:linear-gradient(to top right, rgb(235, 230, 135), lightsalmon);
+}
+
+#origin {
+    background:linear-gradient(to top right, rgb(235, 230, 135), lightsalmon);
+}
+
+#tips {
+    background:linear-gradient(to top right, rgb(235, 230, 135), lightsalmon);
+}
+
+#Models{
+    background:linear-gradient(to top right, rgb(235, 230, 135), lightsalmon); 
+}
+
+#skills{
+    background:linear-gradient(to top right, rgb(235, 230, 135), lightsalmon); 
+}
+
+
+h1{
+    font-size: 3vw;  
+}
+
+
+footer{
+    background-color: black;
+}

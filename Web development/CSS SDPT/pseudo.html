@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+         SEUDO CLASSES
+    </title>
+
+    <style>
+
+
+        #hover {
+            background-color: salmon;
+        }
+
+        #hover:hover {                               /*THIS WILL HOVER THE BUTTON*/
+            background-color: yellowgreen;
+        }
+
+
+
+        a:active {
+            background-color: red;                /*BACKGROUND COLOR WILL CHANGE WHEN CLICK*/
+        }
+
+
+
+        /* OTHER EXAMPLES */
+
+        #hoverr {
+            background-color: darkgreen;
+            color: black;
+        }
+
+        #hoverr:hover {
+            background-color: black;
+            color: white;
+        }
+
+
+
+
+        #hoverrr {
+            background-color: white;
+            color: black;
+        }
+
+        #hoverrr:hover {
+            background-color: black;
+            color: white;
+        }
+
+        #hoverrr:active {
+            background-color: maroon;
+            color: red;
+        }
+
+
+
+        #hoverrrr:hover {
+            background-color: black;
+            color: white;
+            width: 80px;
+            height: 50px;
+        }
+
+
+        /* DISABLED SEUDOO CLASS */
+
+        button:disabled {
+            background-color: maroon;
+            opacity: 0.3;
+        }
+
+
+
+        /* FOCUS SEUDO CLASS */
+
+        #focus:focus {
+            border: 2px solid;
+            border-color: maroon;
+            outline: none;
+            background-color: skyblue;
+        }
+
+        input:checked {
+            scale: 2.0;
+        }
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+<form class="form">
+    <input type="submit" name="submit" id="hover">
+</form>
+
+<br>
+<br>
+
+<a href="position.html"> ACTIVE</a>
+
+<br>
+<br>
+
+<form class="form">
+    <input type="submit" name="submit" id="hoverr">
+</form>
+
+<br>
+<br>
+
+<form class="form">
+    <input type="submit" name="submit" id="hoverrr">
+</form>
+
+<br>
+<br>
+
+<form>
+    <input type="submit" name="submit" id="hoverrrr">
+</form>
+
+<br>
+<br>
+
+<button disabled> DISABLED</button>
+
+<br>
+<br>
+
+
+<form>
+    <input type="email" name="email" id="focus">
+
+    <br>
+    <br>
+
+    <input type="checkbox" name="checked"/>
+    <input type="radio" name="checked"/>
+
+</form>
+
+        
+
+
+
+
+
+
+</body>
+</html>

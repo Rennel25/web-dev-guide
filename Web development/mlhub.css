@@ -1,0 +1,74 @@
+
+  
+  
+  *{
+    font-family:'Trebuchet MS';
+  }
+
+
+
+body{
+    margin: 0px;
+    background-image: url(https://wallpaperbat.com/img/812216-artistic-blue-web-5k-wallpaper-hd-artist-4k-wallpaper-image-photo-and-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+ 
+    }
+ 
+
+
+    .fheader{
+       padding-bottom: 1px;
+       background-color: azure;
+       height: 180px;
+       background-image: url(https://wallpapercave.com/wp/wp2446128.jpg);
+    }
+  
+    #logo{
+        width: 100px;
+        height:30px;
+        margin-left: 25px;
+        margin-top: 10px;
+        
+    }
+
+     
+    h1, h2, p, a, h3, h4{
+       font-family: Arial Narrow, Arial, sans-serif;
+    }
+    
+
+    .title{
+        margin-top: 5px;
+        color: white;
+        background-image: url(https://wallpapercave.com/wp/wp2446128.jpg);
+    }
+     
+
+    .descript{
+      color: white;
+    }
+    .title, .descript{
+     text-align: center;
+  
+    }
+ 
+    .social-media{
+       text-align: center;
+    }
+ 
+    .navs{
+       text-align:center;
+     
+    }
+   .links{
+    text-decoration: none;
+    text-align: end;
+    }
+ 
+   footer{
+    text-decoration: none;
+   }
+ 
